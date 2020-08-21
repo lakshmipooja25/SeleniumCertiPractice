@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="2">
+	
+	<parameter name="username" value="laksh"/>
+	<parameter name="password" value="laksh@123"/>
+
+	<parameter name="username" value="PRATH"/>
+	<parameter name="password" value="PRATH@123"/>
+	
+	<test name="Test1">
+	 <classes>
+	      <class name="DataParameterization.TestNGDataParamXML"/>
+	 </classes>
+	 
+	 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="password" value="PRATH@123"/>
+  <test name="Test1(failed)" parallel="methods">
+    <classes>
+      <class name="DataParameterization.TestNGDataParamXML">
+        <methods>
+          <include name="TestNG_Param1" invocation-numbers="0"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- DataParameterization.TestNGDataParamXML -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

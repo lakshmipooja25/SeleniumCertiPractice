@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test">
+  <groups> 
+  <define name="electricvehicles">
+  <include name="ecar"/>
+  <include name="hatchback"/> 
+  <include name="ebike"/> 
+  </define>  
+  <run>
+
+	<exclude name="ebike"></exclude>
+  </run> 
+  </groups>
+  
+	 <classes>
+	      <class name="Extra_TestNG_Annotations.ExcludeGroups"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

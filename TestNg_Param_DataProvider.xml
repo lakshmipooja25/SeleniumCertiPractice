@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<parameter name="Browsername" value="FIREFOX"/>
+	<parameter name="url" value="http://newtours.demoaut.com"/>
+	
+<test name="Test">
+	
+	 <classes>
+	      <class name="DataParameterization.TestNG_Param_DataProvider"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
