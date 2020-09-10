@@ -83,7 +83,7 @@ public class PrintWebTableToConsole {
 		
 	}
 	
-	@Test(priority=2) // copy paste web table to console  --->  URL1
+	@Test(priority=2) // copy paste web table to console  --->  refer URL1
 	public void WebPagetableIterate_copy_paste_table()
 	{
 		String values=" ";
